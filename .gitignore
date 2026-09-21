@@ -1,0 +1,12 @@
+#Node:
+node_modules/
+
+#configurações de IA que eu não ativei por algum motivo
+.agents/
+.claude/
+.cursor/
+.devin/
+
+#variaveis de ambiente
+.env
+.env*.local
