@@ -1,21 +1,25 @@
 {
   "name": "learning2",
   "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "postinstall": "prisma skills sync || exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4CDan/Learning2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^5.2.1"
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/D4CDan/Learning2/issues"
   },
-  "devDependencies": {
-    "prisma": "^8.0.0-rc.15"
+  "homepage": "https://github.com/D4CDan/Learning2#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.11.0"
   }
 }
